@@ -482,7 +482,8 @@ section {
   @media screen and (max-width: 768px) {
     .dd__descr {
       margin-left: 20px; } }
-
+.experience {
+  overflow-anchor: none; }
 /* =========================== section__portfolio */
 .portfolio {
   margin: 0 0 120px; }
