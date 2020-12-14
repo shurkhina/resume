@@ -11,10 +11,10 @@
 
   <body>
     <header class="header">
-      <div class="container">
-	       <a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
-	       <a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
-      </div>
+     <div class="container">
+  <a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
+  <a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
+</div>
     </header>
 
     <section class="section__main">
@@ -29,7 +29,11 @@
         <div class="acquaintance">
           <h2>Давайте познайомимось</h2>
           <picture>
-            <img src="img/user.jpg" width="500" alt="Frontend Developer">
+            <source media="(min-width:376px)" srcset="img/dina-500.webp" type="image/webp">
+            <source media="(max-width:375px)" srcset="img/dina-290.webp" type="image/webp">
+            <source media="(min-width:376px)" srcset="img/dina-500.jpg">
+            <source media="(max-width:375px)" srcset="img/dina-290.jpg">
+            <img src="img/dina.jpg" alt="Frontend Developer" width="500">
           </picture>
           <div class="about">
             <h3>Декілька слів про себе</h3>
@@ -48,6 +52,11 @@
                 <li>jQuery (підключення плагінів, внесення коригувань);</li>
                 <li>Git;</li>
                 <li>JavaScript - робота з браузером.</li>
+              </ul>
+
+              <h4>Github</h4>
+              <ul>
+                <li><a href="https://github.com/shurkhina" target="_blank">github.com/shurkhina</a></li>
               </ul>
 
               <h4>Знання мов:</h4>
@@ -237,8 +246,12 @@
           <div class="portfolio__item">
             <h3>Сайт про металошукачі</h3>
             <picture>
-              <img src="img/history.png" alt="Metal detectors">
-            </picture> 
+              <source media="(min-width:376px)" srcset="img/history-900.webp" type="image/webp">
+              <source media="(max-width:375px)" srcset="img/history-345.webp" type="image/webp">
+              <source media="(min-width:376px)" srcset="img/history-900.png">
+              <source media="(max-width:375px)" srcset="img/history-345.png">
+              <img src="img/history.jpg" alt="Metal detectors" width="900">
+            </picture>
             <p>Найбільший гід по металошукачів</p>
             <a class="btn btn__link" target="_blank" href="https://detecthistory.com/">Відкрити сторінку</a>
           </div>
@@ -246,19 +259,27 @@
           <div class="portfolio__item">
             <h3>Сайт з просування</h3>
             <picture>
-              <img src="img/seo.png" alt="Seo">
-            </picture> 
+              <source media="(min-width:376px)" srcset="img/seo-900.webp" type="image/webp">
+              <source media="(max-width:375px)" srcset="img/seo-345.webp" type="image/webp">
+              <source media="(min-width:376px)" srcset="img/seo-900.png">
+              <source media="(max-width:375px)" srcset="img/seo-345.png">
+              <img src="img/seo.png" alt="Seo" width="900">
+            </picture>
             <p>Професійна SEO-компанія з більш ніж 10-річним досвідом роботи на міжнародних ринках.</p>
             <a class="btn btn__link" target="_blank" href="https://seoprofy.com/">Відкрити сторінку</a>
           </div>
 
           <div class="portfolio__item">
             <h3>Сайт з управління побудованих посилань</h3>
-            <picture>
-              <img src="img/link.png" alt="Link">
-            </picture> 
-            <p>Інструмент по управлінню, відстеження та контролювання посилань, їх творців або зовнішніх підрядників.</p>
-            <a class="btn btn__link" target="_blank" href="https://linkchecker.pro/">Відкрити сторінку</a>
+              <picture>
+                <source media="(min-width:376px)" srcset="img/link-900.webp" type="image/webp">
+                <source media="(max-width:375px)" srcset="img/link-345.webp" type="image/webp">
+                <source media="(min-width:376px)" srcset="img/link-900.png">
+                <source media="(max-width:375px)" srcset="img/link-345.png">
+                <img src="img/link.png" alt="Link" width="900">
+              </picture>
+              <p>Інструмент по управлінню, відстеження та контролювання посилань, їх творців або зовнішніх підрядників.</p>
+              <a class="btn btn__link" target="_blank" href="https://linkchecker.pro/">Відкрити сторінку</a>
           </div>
         </div>
         
@@ -267,8 +288,8 @@
 
     <footer class="footer">
       <div class="container">
-	<a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
-	<a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
+  <a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
+  <a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
 </div>    </footer>
 
     <script src="js/js.js"></script>
