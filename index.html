@@ -11,10 +11,10 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
-        <a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
-      </div>
+     <div class="container">
+	<a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
+	<a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
+</div>
     </header>
 
     <section class="section__main">
@@ -29,10 +29,7 @@
         <div class="acquaintance">
           <h2>Давайте познайомимось</h2>
           <picture>
-            <source media="(min-width:376px)" srcset="img/dina-500.webp" type="image/webp">
-            <source media="(max-width:375px)" srcset="img/dina-290.webp" type="image/webp">
-            <source media="(min-width:376px)" srcset="img/dina-500.jpg">
-            <source media="(max-width:375px)" srcset="img/dina-290.jpg">
+            <source srcset="img/dina.webp" type="image/webp">
             <img src="img/dina.jpg" alt="Frontend Developer" width="500">
           </picture>
           <div class="about">
@@ -72,9 +69,11 @@
               <p>IT Education Academy (ITEA). JavaScript advanced - <span class="time">квітень 2018 року</span></p>
               <p>IT Education Academy (ITEA). JavaScript base - <span class="time">грудень 2017 року</span></p>
               <ul>
-                <li>https://htmlacademy.ru</li>
-                <li>https://webref.ru</li>
-                <li>https://learn.javascript.ru</li>
+                <li><a href="https://htmlacademy.ru">htmlacademy.ru</a></li>
+                <li><a href="https://webref.ru">webref.ru</a></li>
+                <li><a href="https://learn.javascript.ru">learn.javascript.ru</a></li>
+                <li><a href="https://www.youtube.com/user/flintyara">Артюх Юрій</a></li>
+                <li><a href="https://www.youtube.com/c/pepelsbey">Макєєв Вадим</a></li>
               </ul>
             </div>
           </div>
@@ -118,7 +117,7 @@
               <div class="position">Front-end developer.</div>
               <p><b>Обов'язки:</b></p>
               <ul>
-                <li>лендінги, сайти клієнтів і корпоративні;</li>
+                <li>лендінги, сайти клієнтів, корпоративні;</li>
                 <li>редагування існуючих сайтів;</li>
                 <li>верстка email листів.</li>
               </ul>
@@ -210,7 +209,7 @@
                 <li>проведення первинних співбесід з кандидатами;</li>
                 <li>підбір персоналу на позиції різного рівня;</li>
                 <li>моніторинг і аналіз ринку праці;</li>
-                <li>административные обязанности.</li>
+                <li>вирішення організаційних питань.</li>
               </ul>
             </dd>
 
@@ -238,12 +237,51 @@
       </div>
     </section>
 
+    <section class="section__portfolio">
+      <div class="container">
+        <h2>Мої роботи</h2>
+        
+        <div class="portfolio">
+          <div class="portfolio__item">
+            <h3>Концепт-продукт Moet Chandon.</h3>
+            <p class="descr">Верстка домашньої сторінки.</p>
+            <picture>
+              <source srcset="img/moet.webp" type="image/webp">
+              <img src="img/moet.jpg" alt="moet chandon">
+            </picture>
+            <p>Домашні сонячні станції “під ключ” </p>
+            <a class="btn btn__link" target="_blank" href="https://shurkhina.github.io/moet_chandon/">Відкрити сторінку</a>
+          </div>
+          <div class="portfolio__item">
+            <h3>Сайт про сонячні станції</h3>
+            <p class="descr">Верстка головної сторінки. Посилання на первинний код сайту: <a href="https://shurkhina.github.io/iqsolar/" target="_blank">iqsolar</a></p>
+            <picture>
+              <source srcset="img/iqsolar.webp" type="image/webp">
+              <img src="img/iqsolar.jpg" alt="Iqsolar">
+            </picture>
+            <p>Домашні сонячні станції “під ключ” </p>
+            <a class="btn btn__link" target="_blank" href="https://iqsolar.com.ua/">Відкрити сторінку</a>
+          </div>
+          <div class="portfolio__item">
+            <h3>Сайт-візитка, про дитячи коляски</h3>
+            <picture>
+              <source srcset="img/strollers.webp" type="image/webp">
+              <img src="img/strollers.jpg" alt="Strollers">
+            </picture>
+            <p>Верстка для тесту, без адаптування</p>
+            <a class="btn btn__link" target="_blank" href="https://iqsolar.com.ua/">Відкрити сторінку</a>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="container">
-        <a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
-        <a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
-      </div>    
-    </footer>
+	<a class="icon__email" href="mailto:d.shurkhina@gmail.com">d.shurkhina@gmail.com</a>
+	<a class="icon__phone" href="tel:066-201-21-71">066-201-21-71</a>
+</div>    </footer>
 
     <script src="js/js.js"></script>
   </body>
