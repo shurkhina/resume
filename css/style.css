@@ -225,12 +225,13 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 88px;
+  font-weight: 700;
   line-height: 96px;
   margin-bottom: 50px; }
   @media screen and (max-width: 768px) {
     h1 {
-      font-size: 40px;
-      line-height: 48px;
+      font-size: 48px;
+      line-height: 50px;
       margin-bottom: 20px; } }
 
 h2 {
@@ -473,7 +474,10 @@ section {
   @media screen and (max-width: 768px) {
     .section__main {
       background-size: auto auto;
-      background-position: left -130px top -100px; } }
+      background-position: left -130px top -100px; }
+      .section__main::before {
+        -webkit-backdrop-filter: blur(2px);
+                backdrop-filter: blur(2px); } }
 
 /* =========================== section__about */
 .experience {
